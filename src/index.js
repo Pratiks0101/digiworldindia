@@ -21,7 +21,7 @@ if(menuBtn && menuIcon && menuLinks) {
             if(window.innerWidth < 768) {
                 menuLinks.classList.add('hidden')
                 menuLinks.classList.remove('flex')
-                menuIcon.setAttribute('d', 'M6 18L18 6M6 6l12 12')
+                menuIcon.setAttribute('d', 'M4 6h16M4 12h16M4 18h16')
             }
         })
     })
