@@ -1,0 +1,3 @@
+[build]
+  command = "npx @tailwindcss/cli -i ./src/index.css -o ./src/style.css --minify"
+  publish = "src"
